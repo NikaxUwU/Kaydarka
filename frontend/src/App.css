@@ -1,0 +1,50 @@
+
+#main-menu-button{
+  width: 20px;
+  height: 20px;
+  background-color: #15ff00;
+  margin-top: 10px;
+  margin-left: 2%;
+  z-index: 1;
+}
+
+#main-menu-button:hover ~ #main-menu{
+  margin-left: -1%;
+}
+
+/* #main-menu-button:hover{
+  display: none;
+} */
+
+#main-menu:hover{
+  margin-left: -1%;
+}
+
+#main-menu{
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background-color: #000;
+  margin-top: -10px;
+  margin-left: -30%;
+  max-width: 300px;
+  transition: 2s;
+  z-index: 2;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+  min-width: 753px;
+}
+
